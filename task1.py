@@ -24,4 +24,8 @@ The animal at that index is Dog
 
 
 
-animals =
+animals = ["Bear","Cat","Dog","Fish","Turtle"]
+
+x = int(input("Enter the index for an animal: "))
+
+print("The animal at that index is {}".format(animals[x]))

@@ -14,3 +14,8 @@ The smallest number is 3 and the largest number is 9
 """
 
 myList = [ 3,6,5,4,6,7,8,6,5,9,4,5 ]
+myList.sort()
+
+smallest = myList[0]
+largest = myList[11]
+print("The smallest number is {} and the largest number is {}".format(smallest, largest))
