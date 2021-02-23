@@ -28,6 +28,7 @@ wordList = []
 
 for x in range (5):
     y = input("Enter a word: ")
+    y = y.strip()
     wordList.append(y)
 
 print(wordList)

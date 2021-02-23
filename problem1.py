@@ -22,12 +22,13 @@ Enter the replacement:Dan
 nameList = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(nameList)
 remove_name = input("Choose a person from the list to replace: ")
-
+remove_name = remove_name.strip()
 num = nameList.index(remove_name)
 num = int(num)
 nameList.remove(remove_name)
 
-add_name = input("Enter the replacement: ")
 
+add_name = input("Enter the replacement: ")
+add_name = add_name.strip()
 nameList.insert(num, add_name)
 print(nameList)
